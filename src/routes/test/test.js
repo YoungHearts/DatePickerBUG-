@@ -1,7 +1,7 @@
 import React from "react";
 import { DatePicker } from 'antd';
 const { RangePicker, MonthPicker } = DatePicker;
-import 'moment/locale/zh-cn';
+
 class Test extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -9,7 +9,7 @@ class Test extends React.PureComponent {
     };
   }
   componentWillMount() {
-    
+
   }
   execute = () => {
   };

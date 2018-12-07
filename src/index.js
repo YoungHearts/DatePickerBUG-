@@ -6,10 +6,14 @@ import createHistory from 'history/createHashHistory';
 // user BrowserHistory 不带#
 // import createHistory from 'history/createBrowserHistory';
 import createLoading from 'dva-loading';
+import moment from 'moment';
 import 'moment/locale/zh-cn';
 import './rollbar';
 
 import './index.less';
+
+moment.locale('zh-cn');
+
 // 1. Initialize
 const app = dva({
   history: createHistory()
